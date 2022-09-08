@@ -22,7 +22,7 @@
         </button>
     </div>
     <div id="instructions">
-        <p>Welcome to Quiz Whiz!</p>
+        <p>     </p>
     </div>
     <div>
         <h3 id="timer">00:00</h3>
@@ -32,19 +32,20 @@
 <section id="main-section">
     <!-- Starting section. -->
     <div id="qbox">
-        <h1>Who's Playing?</h1>
-        <form id="name-form"></form>
-        <img class="run-dino" src="./bassets/images/tumblr_mup3qzOPsX1rk0k2jo1_500.gif">
-            <div id="name-dino-run">
-                <input type="text" name="player-name" id="your-name" placeholder="Enter your name" required></input>
-            </div>
-            <div id="submit-dino-run">
-                <button onclick="userFormHandler()" type="click" id="name-submit">Submit</button> 
-            </div> 
-        </form>
+        <p class="rules"> Rules </p>
+        <ul class="rules-list">
+            <p> The quiz is 10 questions long. </p>
+            <p> You will have 1 minute to complete this quiz.</p>
+            <p> Each time you answer a question incorrectly, </p>
+            <p> 5 seconds will be deducted from the timer</p>
+            <p> Click the start button whenever you are ready!<p>
+        </ul>
+        <div class="button-div">
+        <button onclick="startQuiz()" type="submit" id="start-button"> Start </button>
+        </div>
     </div>
 </section>
-<script src="./bassets/js/script.js"></script>
+<script src="./bassets/js/script2.js"></script>
 </body>
  
 
