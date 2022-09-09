@@ -126,22 +126,7 @@ header p {
     padding-top: 2vw;
 }
 
-#name-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-#your-name {
-    border: solid;
-    border-color: #666457;
-    border-radius: 2vw;
-    font-size: 1vw;
-    padding-left: 4vw;
-    font-size: 2vw;
-}
-
-#name-submit {
+#quiz-start {
     border: solid;
     border-color: #666457;
     border-radius: 2vw;
@@ -151,22 +136,65 @@ header p {
     padding-right: 2.5vw;
 }
 
-#name-dino-run {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+#submit-dino-run {
+    padding-left: 14.5vw;
     padding-top: 5vw;
 }
 
-#name-dino-run input {
-   padding-left: 7vw;
+/* RULES PAGE */
+
+#qbox p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 2vw;
+    padding: 2vw;
+    font-weight: bold;
+    font-style: italic;
+    color: #666457;
 }
 
-#submit-dino-run {
-    padding-left: 13.7vw;
-    padding-top: 1vw;
+#start-button {
+    height: 7vw;
+    width: 20vw;
+    border: solid;
+    border-color: #666457;
+    border-radius: 2vw;
+    font-size: 2vw;
+    padding: 1vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    color: #666457;
 }
+
+#ready-div {
+    padding-left: 9vw;
+    padding-top: 3.5vw;
+}
+
+/* questions */
+
+#question-box h1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw;
+    font-size: 2vw;
+}
+
+.options-box {
+    height: 28vw;
+}
+
+#question-box button {
+    display: flex;
+    flex-wrap: wrap;
+    height: 3vw;
+    width: 20vw;
+    padding: 1vw;
+    border: none;
+    margin: 0 auto;
+}
+
 
 
 
@@ -184,9 +212,10 @@ footer {
     padding: .5vw;
     padding-left: 2.5vw;
     border: solid;
-    border-color: black;
+    border-color: #666457;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 1vw;
 }
 
 footer #big-foot {

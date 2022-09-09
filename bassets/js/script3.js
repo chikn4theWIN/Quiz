@@ -111,13 +111,27 @@ var questions = [
     ]
   }
 ];
-var startTimer = document.querySelector("#timer");
+var timer = document.querySelector("#timer");
+i = 60;
+
+
+function theTimer() {
+  document.getElementById('timer').innerHTML = i;
+  i--;
+  if (i < 0) {
+    alert("Time's up!");
+  }
+  else {
+    setTimeout(onTimer, 1000);
+  }
+}
 
 var showQuestion = function () {
-
+  
 }
 
 var nextQuestion = function () {
 
 
 }
+
